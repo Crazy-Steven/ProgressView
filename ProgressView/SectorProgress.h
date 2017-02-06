@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SectorProgress : UIView
+@property (assign, nonatomic) CGFloat progress;
 
 @end

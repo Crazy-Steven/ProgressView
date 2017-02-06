@@ -13,6 +13,8 @@
 		B07E38021E44820B00E4CE39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07E38001E44820B00E4CE39 /* Main.storyboard */; };
 		B07E38041E44820B00E4CE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07E38031E44820B00E4CE39 /* Assets.xcassets */; };
 		B07E38071E44820B00E4CE39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07E38051E44820B00E4CE39 /* LaunchScreen.storyboard */; };
+		B07E38101E44877500E4CE39 /* SectorProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = B07E380F1E44877500E4CE39 /* SectorProgress.m */; };
+		B07E38151E48140E00E4CE39 /* BallProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = B07E38141E48140E00E4CE39 /* BallProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		B07E38031E44820B00E4CE39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B07E38061E44820B00E4CE39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B07E38081E44820B00E4CE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B07E380E1E44877500E4CE39 /* SectorProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectorProgress.h; sourceTree = "<group>"; };
+		B07E380F1E44877500E4CE39 /* SectorProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectorProgress.m; sourceTree = "<group>"; };
+		B07E38131E48140E00E4CE39 /* BallProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallProgress.h; sourceTree = "<group>"; };
+		B07E38141E48140E00E4CE39 /* BallProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 			children = (
 				B07E37FA1E44820B00E4CE39 /* AppDelegate.h */,
 				B07E37FB1E44820B00E4CE39 /* AppDelegate.m */,
+				B07E380E1E44877500E4CE39 /* SectorProgress.h */,
+				B07E380F1E44877500E4CE39 /* SectorProgress.m */,
+				B07E38131E48140E00E4CE39 /* BallProgress.h */,
+				B07E38141E48140E00E4CE39 /* BallProgress.m */,
 				B07E37FD1E44820B00E4CE39 /* ViewController.h */,
 				B07E37FE1E44820B00E4CE39 /* ViewController.m */,
 				B07E38001E44820B00E4CE39 /* Main.storyboard */,
@@ -150,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07E38151E48140E00E4CE39 /* BallProgress.m in Sources */,
+				B07E38101E44877500E4CE39 /* SectorProgress.m in Sources */,
 				B07E37FF1E44820B00E4CE39 /* ViewController.m in Sources */,
 				B07E37FC1E44820B00E4CE39 /* AppDelegate.m in Sources */,
 				B07E37F91E44820B00E4CE39 /* main.m in Sources */,
